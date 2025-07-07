@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="H">MY PORTFOLIO</h1>
+        <h1>ADITYA KUMAR THAKUR</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 3D Cube -->
+    <section class="hero">
+        <div class="cube">
+            <img width="200px"  src="c.jpeg" alt="pic of the developer">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate,Enthusiastic and self-motivated aspiring Web Developer with a solid foundation in HTML, CSS, and JavaScript.
+            Passionate about designing clean, responsive interfaces and learning full-stack technologies. Eager to apply
+            knowledge and contribute to real-world projects while gaining hands-on industry experience.</p>
+    </section>
+
+    <div id="c">
+        <h3>EDUCATIONAL QUALIFICATIONS</h3>
+        <ul>
+            <ul><b>Passed Class 10 from Narayana School Rajarhat- <u> 96.5% </u></b></ul>
+            <ul><b>Passed Class 12 from Narayana School Barasat- <u> 90% </u></b></ul>
+            <ul><b>Pursuing B.Tech. in CSE from TECHNO MAIN SALTLAKE</b></ul>
+        </ul>
+    </div>
+
+    <div class="D">
+        <h2>LANGUAGE SKILLS</h4>
+            <li> ENGLISH</li>
+            <li> HINDI<br></li>
+            <li> BENGALI</li>
+
+
+    </div>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="card tilt">
+                <h3>Project A</h3>
+                <p>Calculator Web App</p>
+            </div>
+            <div class="card tilt">
+                <h3>Project B</h3>
+                <p>Weather App using API</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form onsubmit="submitForm(event)">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aditya Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="javas.js"></script>
+</body>
+
+</html>
